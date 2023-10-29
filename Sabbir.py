@@ -148,7 +148,7 @@ class Main:
         self.loop = 0
         os.system("clear")
         print(logo)
-       os.system('xdg-openhttps://www.facebook.com/profile.php?id=100089747571096')
+            # os.system('xdg-openhttps://www.facebook.com/profile.php?id=100089747571096')
         print('\033[1;31m[\033[1;32m1\033[1;31m]  \x1b[38;5;46m START RANDOM CLONE')
         print('\033[1;31m[\033[1;32m2\033[1;31m]  \x1b[38;5;46m EXIT')
         print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
